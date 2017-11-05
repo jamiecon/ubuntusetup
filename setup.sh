@@ -41,3 +41,9 @@ sudo npm install -g gulp
 # Requires network manager uninstall
 #wicd
 #wicd-curses
+
+# Install Firefox nightly
+
+# Scripts to go in the path
+sudo cp userscripts/* /usr/local/bin/
+

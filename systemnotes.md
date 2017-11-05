@@ -14,5 +14,5 @@ Useful commands
 - Find a process `ps -eaf | grep [w]get`
 - Traceroute: `mtr <ip>`
 - Generate a password `curl -s https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt | shuf | head -n 4 | tr '\n' ' '; echo`
-- Restart service: `sudo systemctl restart network-manager.service`
+- Restart systemd unit: `sudo systemctl restart network-manager.service`
 - Install npm package globally `npm install -g <packagename>`
