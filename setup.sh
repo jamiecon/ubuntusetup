@@ -25,6 +25,10 @@ sudo apt install --assume-yes xautolock
 sudo apt install --assume-yes nodejs
 sudo apt install --assume-yes npm
 
+# Configure Git
+git config --global user.email "31685362+initialpuppet@users.noreply.github.com"
+git config --global user.name "initialpuppet"
+
 # Requires Microsoft PPA
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
