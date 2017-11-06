@@ -13,6 +13,7 @@ sudo apt install --assume-yes curl
 sudo apt install --assume-yes vim
 sudo apt install --assume-yes chromium-browser
 sudo apt install --assume-yes git-all
+sudo apt install --assume-yes gimp
 sudo apt install --assume-yes i3
 sudo apt install --assume-yes ldnsutils
 sudo apt install --assume-yes nethogs
