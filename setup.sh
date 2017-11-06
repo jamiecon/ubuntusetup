@@ -26,6 +26,10 @@ sudo apt install --assume-yes qbittorrent
 sudo apt install --assume-yes nodejs
 sudo apt install --assume-yes npm
 
+# For the Pixel Go game library
+sudo apt install --assume-yes libgl1-mesa-dev
+sudo apt install --assume-yes xorg-dev 
+
 # Configure Git
 git config --global user.email "31685362+initialpuppet@users.noreply.github.com"
 git config --global user.name "initialpuppet"
