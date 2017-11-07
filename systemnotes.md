@@ -17,3 +17,4 @@ Useful commands
 - Generate a password: `genpw.sh`
 - Restart systemd unit: `sudo systemctl restart network-manager.service`
 - Install npm package globally `npm install -g <packagename>`
+- Set screen brightness: `sudo tee brightness <<< 2000`
