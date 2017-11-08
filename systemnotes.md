@@ -18,3 +18,4 @@ Useful commands
 - Restart systemd unit: `sudo systemctl restart network-manager.service`
 - Install npm package globally `npm install -g <packagename>`
 - Set screen brightness: `sudo tee brightness <<< 2000`
+- List available wifi networks: `nmcli -p dev wifi`

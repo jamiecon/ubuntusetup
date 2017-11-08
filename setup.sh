@@ -16,6 +16,7 @@ sudo apt install --assume-yes git-all
 sudo apt install --assume-yes gimp
 sudo apt install --assume-yes i3
 sudo apt install --assume-yes ldnsutils
+sudo apt install --assume-yes whois
 sudo apt install --assume-yes nethogs
 sudo apt install --assume-yes nmap
 sudo apt install --assume-yes pmount
