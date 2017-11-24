@@ -28,6 +28,7 @@ sudo apt install --assume-yes xbacklight
 sudo apt install --assume-yes qbittorrent
 sudo apt install --assume-yes nodejs
 sudo apt install --assume-yes npm
+sudo apt install --assume-yes tree 
 
 # For the Pixel Go game library
 sudo apt install --assume-yes libgl1-mesa-dev
