@@ -5,8 +5,7 @@ sudo apt update --assume-yes
 sudo apt upgrade --assume-yes
 
 # From Snap
-# done manually for now
-#sudo snap install keepassxc
+sudo snap install keepassxc
 
 # From Ubuntu default PPA
 sudo apt install --assume-yes curl
@@ -52,10 +51,6 @@ sudo apt --assume-yes install code # or code-insiders
 
 # From NPM
 sudo npm install -g gulp
-
-# Requires network manager uninstall
-#wicd
-#wicd-curses
 
 # Install Firefox nightly
 
