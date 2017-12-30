@@ -18,6 +18,7 @@ sudo apt install --assume-yes smplayer
 sudo apt install --assume-yes vlc
 sudo apt install --assume-yes weechat
 sudo apt install --assume-yes xautolock
+sudo apt install --assume-yes numlockx
 sudo apt install --assume-yes qbittorrent
 sudo apt install --assume-yes nodejs
 sudo apt install --assume-yes npm
