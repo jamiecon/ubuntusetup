@@ -1,2 +1,2 @@
 #!/bin/sh
-/opt/firefox/firefox -p developer -no-remote
+/opt/firefoxdeveloper/firefox -p dev-edition-default -no-remote

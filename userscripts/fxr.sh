@@ -1,2 +1,2 @@
 #!/bin/sh
-/usr/bin/firefox -p release -no-remote
+/usr/bin/firefox -p default -no-remote
