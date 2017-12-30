@@ -71,7 +71,9 @@ wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=lin
 tar -xvjf fx.tar.bz2
 sudo mv firefox /opt/firefoxdeveloper
 
-
 # Scripts to go in the path
 sudo cp userscripts/* /usr/local/bin/
+
+# i3 Config
+git clone https://initialpuppet@gitlab.com/initialpuppet/i3config.git ~/.config/i3
 
