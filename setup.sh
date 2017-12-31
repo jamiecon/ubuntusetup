@@ -78,3 +78,9 @@ sudo cp userscripts/* /usr/local/bin/
 # i3 Config
 git clone https://initialpuppet@gitlab.com/initialpuppet/i3config.git ~/.config/i3
 
+# Create .ssh directory and configuration file
+mkdir ~/.ssh
+echo "#IdentityFile ~/.ssh/id_rsa
+# ... and so on" | tee >> ~/.ssh/config
+echo "Now copy your private keys into the .ssh directory and add the filenames to the config file."
+chomd 600 ~/.ssh/*
