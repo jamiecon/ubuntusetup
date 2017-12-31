@@ -63,10 +63,6 @@ sudo npm install -g gulp
 # Python packages
 sudo pip install pylint
 
-# For Odoo
-sudo apt install --assume-yes postgresql python-pip libxml2-dev libxslt1-dev zlib1g-dev libldap2-dev libsasl2-dev nodejs npm 
-sudo npm install -g less
-
 # Firefox Dev Edition
 wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-GB" -O fx.tar.bz2
 tar -xvjf fx.tar.bz2
