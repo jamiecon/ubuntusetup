@@ -27,10 +27,14 @@ sudo apt install --assume-yes curl
 sudo apt install --assume-yes vim
 sudo apt install --assume-yes chromium-browser
 
+# Only necessary for Ubuntu 16.07
+sudo apt install --assume-yes nodejs-legacy
+
 # Git
 sudo apt install --assume-yes git
 git config --global user.email "31685362+initialpuppet@users.noreply.github.com"
 git config --global user.name "initialpuppet"
+git config --global credential.helper "cache --timeout=86400"
 
 # xbacklight
 sudo apt install --assume-yes xbacklight
