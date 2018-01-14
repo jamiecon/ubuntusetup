@@ -19,3 +19,5 @@ Useful commands
 - Install npm package globally `npm install -g <packagename>`
 - Set screen brightness: `sudo tee brightness <<< 2000`
 - List available wifi networks: `nmcli -p dev wifi`
+- Set audio output to HDMI: `pacmd list-cards` then `pactl set-card-profile 0 output:hdmi-stereo-extra1`
+- Set video output to dual-monitor: `xrandr --output eDP1 --auto --output HDMI2 --auto --right-of eDP1`
