@@ -1,11 +1,11 @@
 #!/bin/bash
 set -x
 
-# From Snap
-#sudo snap install keepassxc
-
 sudo apt update --assume-yes
 sudo apt upgrade --assume-yes
+
+# From minimal
+sudo apt install --assume-yes lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings ubuntu-drivers-common mesa-utils mesa-utils-extra compton xorg xserver-xorg gnome-terminal intel-microcode plymouth-theme-ubuntu-logo pulseaudio
 
 sudo apt install --assume-yes i3
 
@@ -34,7 +34,7 @@ sudo apt install --assume-yes gimp
 sudo apt install --assume-yes npm
 sudo apt install --assume-yes git
 sudo apt install --assume-yes python-pip
-sudo apt install --assume-yes python3.6-dev
+#sudo apt install --assume-yes python3.6-dev
 
 # Git config
 git config --global user.email "31685362+initialpuppet@users.noreply.github.com"
@@ -42,14 +42,16 @@ git config --global user.name "initialpuppet"
 git config --global credential.helper "cache --timeout=86400"
 
 # xbacklight
-# Not necessary pre-Ubuntu Wayland
 sudo apt install --assume-yes xbacklight
+
+# Use Intel graphics driver
 echo "
 Section \"Device\"
-Identifier  \"Card0\"
-Driver      \"intel\"
-Option      \"Backlight\"  \"intel_backlight\"
-EndSection" | sudo tee >> /etc/X11/xorg.conf
+	Identifier \"Card0\"
+	Driver \"intel\"
+	Option \"Backlight\"  \"intel_backlight\"
+	#Option \"TearFree\" \"true\"
+EndSection" | sudo tee /etc/X11/xorg.conf
 
 # For the Pixel Go game library
 #sudo apt install --assume-yes libgl1-mesa-dev
