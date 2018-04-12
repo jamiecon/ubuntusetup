@@ -41,6 +41,10 @@ git config --global user.email "31685362+initialpuppet@users.noreply.github.com"
 git config --global user.name "initialpuppet"
 git config --global credential.helper "cache --timeout=86400"
 
+# For professional work
+#git config user.name "Jamie Condliffe"
+#git config user.email "jamie@kamooni.com"
+
 # xbacklight
 sudo apt install --assume-yes xbacklight
 
